@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="xl:container mx-auto px-8">
+        <main className="xl:container mx-auto overflow-hidden px-8">
           <Navbar />
           {children}
         </main>

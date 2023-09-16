@@ -28,6 +28,7 @@ module.exports = {
 			"neutral-500": "#262626",
 			"neutral-700": "#1B1314",
 			"neutral-900": "#12070B",
+			"danger-500": "#FF4530"
 		},
 		extend: {
 			colors: {

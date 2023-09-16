@@ -66,3 +66,46 @@ export const selections = [
         alt: "Everyday Shoes"
     }
 ]
+
+export const bestsellers = [
+    {
+        src: "/sneaker.png",
+        alt: "Sneaker",
+        ratings: {
+            rating: "4.5",
+            user: "325",
+        },
+        price: "965.500",
+        subPrice: "1.097.500",
+    },
+    {
+        src: "/women-rodes.png",
+        alt: "Women's Rodes",
+        ratings: {
+            rating: "4.5",
+            user: "325",
+        },
+        price: "755.000",
+        subPrice: null,
+    },
+    {
+        src: "/bag-bestsellers.png",
+        alt: "Bag",
+        ratings: {
+            rating: "4.5",
+            user: "325",
+        },
+        price: "965.500",
+        subPrice: "1.000.500",
+    },
+    {
+        src: "/men-robes.png",
+        alt: "Men's Robes",
+        ratings: {
+            rating: "4.5",
+            user: "325",
+        },
+        price: "680.000",
+        subPrice: null
+    }
+]

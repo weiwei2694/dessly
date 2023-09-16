@@ -1,3 +1,4 @@
+import BestSellers from "@/components/sharing/BestSellers";
 import Brand from "@/components/sharing/Brand";
 import Header from "@/components/sharing/Header";
 import TopSelections from "@/components/sharing/TopSelections";
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Brand />
       <TopSelections />
+      <BestSellers />
     </>
   )
 }
