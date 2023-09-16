@@ -28,3 +28,26 @@ export const icons = [
         icon: "/user.png"
     }
 ]
+
+export const brands = [
+    {
+        src: "/berluti-logo.wine.png",
+        alt: "Berluti"
+    },
+    {
+        src: "/gucci-logo.wine.png",
+        alt: "Gucci"
+    },
+    {
+        src: "/jimmy_choo_ltd-logo.wine.png",
+        alt: "Jimmy Choo Ltd"
+    },
+    {
+        src: "/burberry-logo.wine.png",
+        alt: "Burberry"
+    },
+    {
+        src: "/louis_vuitton-logo.wine.png",
+        alt: "Louis Vuitton"
+    }
+]
