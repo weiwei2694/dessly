@@ -51,3 +51,18 @@ export const brands = [
         alt: "Louis Vuitton"
     }
 ]
+
+export const selections = [
+    {
+        src: "/elegant-eid-attire.png",
+        alt: "Elegant Eid Attire"
+    },
+    {
+        src: "/accessory-essentials.png",
+        alt: "Accessory Essentials"
+    },
+    {
+        src: "/everyday-shoes.png",
+        alt: "Everyday Shoes"
+    }
+]
