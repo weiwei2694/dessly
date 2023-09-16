@@ -2,6 +2,9 @@ import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
 
+import { Ubuntu } from "next/font/google"
+const font = Ubuntu({ subsets: ["latin"], weight: "700"})
+
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
@@ -18,6 +21,7 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        primary: cn("w-full max-w-[268px] bg-primary-500 text-neutral-900 leading-[140%] text-[15px]", font.className)
       },
       size: {
         default: "h-10 px-4 py-2",
