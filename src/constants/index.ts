@@ -109,3 +109,18 @@ export const bestsellers = [
         subPrice: null
     }
 ]
+
+export const steps = [
+    {
+        title: "Select Product"
+    },
+    {
+        title: "Login/Register"
+    },
+    {
+        title: "Shopping Bag"
+    },
+    {
+        title: "Payment"
+    }
+]
