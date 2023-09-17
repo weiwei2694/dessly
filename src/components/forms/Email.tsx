@@ -33,12 +33,12 @@ const Email = () => {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="grid grid-cols-12 items-start gap-x-4">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="flex items-start gap-x-4">
         <FormField
           control={form.control}
           name="email"
           render={({ field }) => (
-            <FormItem className="col-span-10">
+            <FormItem className="flex-1">
               <FormControl>
                 <Input className="no-focus" placeholder="Type your mail" disabled={isLoading} {...field} />
               </FormControl>
@@ -46,7 +46,7 @@ const Email = () => {
             </FormItem>
           )}
         />
-        <Button variant="primary" disabled={isLoading} className="w-fit col-span-2" type="submit">
+        <Button variant="primary" disabled={isLoading} className="w-fit" type="submit">
           <div className="relative w-[20px] h-[20px]">
             <Image src="/send.png" alt="Send Icon" fill />
           </div>
