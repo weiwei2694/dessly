@@ -27,6 +27,10 @@ body,
 	background-color: #ddd;
 }
 
+.no-focus {
+	@apply focus-visible:ring-0 focus-visible:ring-offset-0 !important;
+}
+
 @layer base {
 	:root {
 		--background: 0 0% 100%;
