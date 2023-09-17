@@ -124,3 +124,40 @@ export const steps = [
         title: "Payment"
     }
 ]
+
+export const footers = [
+    {
+        title: "Product Category",
+        children: [
+            {
+                title: "Women's clothing"
+            },
+            {
+                title: "Menswear"
+            },
+            {
+                title: "Accessories"
+            },
+            {
+                title: "Shoes"
+            }
+        ]
+    },
+    {
+        title: "Company",
+        children: [
+            {
+                title: "About"
+            },
+            {
+                title: "Contact"
+            },
+            {
+                title: "Privacy Policy"
+            },
+            {
+                title: "Terms of Service"
+            }
+        ]
+    }
+]

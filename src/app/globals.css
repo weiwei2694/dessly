@@ -27,10 +27,6 @@ body,
 	background-color: #ddd;
 }
 
-.no-focus {
-	@apply focus-visible:ring-0 focus-visible:ring-offset-0 !important;
-}
-
 @layer base {
 	:root {
 		--background: 0 0% 100%;
@@ -102,4 +98,29 @@ body,
 	body {
 		@apply bg-background text-foreground;
 	}
+}
+
+/* ==== GLOBAL STYLING === */
+
+.no-focus {
+	@apply focus-visible:ring-0 focus-visible:ring-offset-0 !important;
+}
+
+
+/* ==== LOCAL STYLING === */
+/* Footer */
+.footer__list {
+	@apply break-inside-avoid flex flex-col gap-2 md:gap-4;
+}
+
+.footer__list-heading {
+	@apply text-neutral-900 leading-[140%] text-[20px] font-medium;
+}
+
+.footer__list-children {
+	@apply flex flex-col gap-y-2;
+}
+
+.footer__list-children__list {
+	@apply text-neutral-500 leading-[140%] text-[16px] font-normal;
 }

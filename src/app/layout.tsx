@@ -2,6 +2,7 @@ import Navbar from '@/components/sharing/Navbar'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Footer from '@/components/sharing/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <main className="xl:container mx-auto overflow-hidden px-8">
           <Navbar />
           {children}
+          <Footer />
         </main>
       </body>
     </html>
